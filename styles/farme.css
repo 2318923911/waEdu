@@ -1,0 +1,200 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.all {
+    width: 100%;
+    height: 100%;
+}
+
+.bg {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.bghead {
+    width: 100%;
+    height: 900px;
+    background: url(../images/frame/1.b.jpg) no-repeat;
+    /* position: relative; */
+}
+
+.logo {
+    position: absolute;
+    top: 3%;
+    left: 5%;
+}
+
+.banner {
+    position: absolute;
+    top: 39%;
+    left: 18%;
+    /* margin: 0 auto; */
+}
+
+.up {
+    position: absolute;
+    top: 91%;
+    left: 50%;
+}
+
+.bgheads {
+    width: 100%;
+    height: 600px;
+    background: url(../images/frame/2.jpg) no-repeat;
+    position: relative;
+}
+
+.bgcenter {
+    width: 100%;
+    height: 600px;
+    background: url(../images/frame/3.jpg) no-repeat;
+    position: relative;
+}
+
+.more {
+    position: absolute;
+    left: 23%;
+    top: 56%;
+    cursor: pointer;
+}
+
+.more:hover {
+    background: url(../images/frame/mores.png) no-repeat
+}
+
+.bgcenters {
+    width: 100%;
+    height: 900px;
+    background: url(../images/frame/4.jpg) no-repeat;
+    cursor: pointer;
+}
+
+.bgfive {
+    width: 100%;
+    height: 900px;
+    background: url(../images/frame/5.jpg) no-repeat;
+    cursor: pointer;
+    position: relative;
+}
+
+.bgfive span {
+    position: absolute;
+    top: 73%;
+    left: 21%;
+    margin-left: 30px;
+}
+
+.bgsix {
+    width: 100%;
+    height: 600px;
+    background: url(../images/frame/6.jpg) no-repeat;
+    cursor: pointer;
+}
+
+.bgsenven {
+    width: 100%;
+    height: 900px;
+    background: url(../images/frame/7.jpg) no-repeat;
+    cursor: pointer;
+}
+
+.bgtop {
+    width: 100%;
+    height: 800px;
+    background: url(../images/frame/8.jpg) no-repeat;
+    cursor: pointer;
+    position: relative;
+}
+
+.school-one,
+.school-four {
+    left: 28.3%;
+}
+
+.school-two,
+.school-five {
+    left: 53.5%
+}
+
+.school-there,
+.school-six {
+    left: 79%
+}
+
+.school-one,
+.school-two,
+.school-there {
+    position: absolute;
+    top: 65%;
+}
+
+.school-four,
+.school-five,
+.school-six {
+    position: absolute;
+    top: 80.5%;
+}
+
+.school-one:hover,
+.school-two:hover,
+.school-there:hover,
+.school-four:hover,
+.school-five:hover,
+.school-six:hover {
+    background: url(../images/frame/schools.png) no-repeat;
+}
+
+.bgtops {
+    width: 100%;
+    height: 800px;
+    background: url(../images/frame/9.png) no-repeat;
+    position: relative;
+}
+
+.logos {
+    position: absolute;
+    top: 3%;
+    left: 15%;
+}
+
+.choose {
+    position: absolute;
+    top: 19%;
+    left: 67%;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.bgtops-box {
+    width: 70%;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    height: 200px;
+}
+
+.bgtops-left {
+    width: 59%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.bgtops-left img {
+    margin-right: 20px
+}
+
+.bgtops-right {
+    width: 40%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.bgtops-right span,
+.bgtops-right img {
+    margin-left: 55px;
+    margin-top: 20px;
+    cursor: pointer;
+}
