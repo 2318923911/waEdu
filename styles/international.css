@@ -1,0 +1,420 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.all {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.bghead {
+    width: 100%;
+    height: 930px;
+}
+
+.bghead_1 {
+    width: 100%;
+    height: 310px;
+    background-image: url(../images/international/bg1-1.jpg);
+    min-width: 1280px;
+    background-position: center;
+    background-size: auto 100%;
+    overflow: hidden;
+}
+
+.bghead_2 {
+    width: 100%;
+    height: 310px;
+    background-image: url(../images/international/bg1-2.jpg);
+    min-width: 1280px;
+    background-position: center;
+    background-size: auto 100%;
+    overflow: hidden;
+}
+
+.bghead_3 {
+    width: 100%;
+    height: 310px;
+    background-image: url(../images/international/bg1-3.jpg);
+    min-width: 1280px;
+    background-position: center;
+    background-size: auto 100%;
+    overflow: hidden;
+}
+
+.bghead_wenzi {
+    width: 500px;
+    height: 187px;
+    background-image: url(../images/international/bg1-wenzi.png);
+    position: absolute;
+    top: 300px;
+    left: 410px;
+}
+
+.logo {
+    width: 100%;
+    height: 104px;
+    background-image: url(../images/international/yinying.png);
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    min-width: 1280px;
+}
+
+.logo a {
+    width: 214px;
+    height: 54px;
+    background-image: url(../images/international/logo.png);
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.bgone {
+    width: 100%;
+    height: 790px;
+    background-image: url(../images/international/bg2.jpg);
+    min-width: 1280px;
+    background-position: center;
+    background-size: auto 100%;
+    overflow: hidden;
+}
+
+.bgone-study {
+    width: 1495px;
+    height: 500px;
+    /* background: red; */
+    margin: 235px auto 0 auto;
+    min-width: 1495px;
+    background-position: center;
+    background-size: auto 100%;
+    overflow: hidden;
+}
+
+.bgone-study span {
+    text-align: center;
+    padding: 2px;
+    color: #714820;
+}
+
+#bgone-studyone,
+#bgone-studytwo,
+#bgone-studythere,
+#bgone-studyfour {
+    float: left;
+    width: 332px;
+    height: 456px;
+    background-image: url(../images/international/qian.png);
+    cursor: pointer;
+    position: relative;
+}
+
+#bgone-studyone,
+#bgone-studytwo,
+#bgone-studythere {
+    margin-right: 54px;
+}
+
+#bgone-studyone:hover,
+#bgone-studytwo:hover,
+#bgone-studythere:hover,
+#bgone-studyfour:hover {
+    background-image: url(../images/international/hou.png);
+}
+
+.studyone,
+.studytwo,
+.studythere,
+.studyfour {
+    display: block;
+    margin-top: 67px;
+    margin-left: 3px;
+}
+
+.studyone {
+    width: 326px;
+    height: 218px;
+    background-image: url(../images/international/gao.png);
+}
+
+.studytwo {
+    width: 326px;
+    height: 217px;
+    background-image: url(../images/international/ben.png);
+}
+
+.studythere {
+    width: 327px;
+    height: 217px;
+    background-image: url(../images/international/yan.png);
+}
+
+.studyfour {
+    width: 326px;
+    height: 217px;
+    background-image: url(../images/international/zhuan.png);
+}
+
+.bgtwo {
+    width: 100%;
+    height: 630px;
+    background-image: url(../images/international/bg3.jpg);
+    min-width: 1280px;
+    background-position: center;
+    background-size: auto 100%;
+    overflow: hidden;
+}
+
+.bgthere {
+    width: 100%;
+    height: 960px;
+    min-width: 1280px;
+    background-position: center;
+    background-size: auto 100%;
+    overflow: hidden;
+}
+
+.bgthereone {
+    width: 100%;
+    height: 335px;
+    background-image: url(../images/international/bg4-1.jpg);
+    min-width: 1280px;
+    background-position: center;
+    background-size: auto 100%;
+    overflow: hidden;
+}
+
+.bgtheretwo {
+    width: 100%;
+    height: 295px;
+    background-image: url(../images/international/bg4-2.jpg);
+    min-width: 1280px;
+    background-position: center;
+    background-size: auto 100%;
+    overflow: hidden;
+}
+
+.bgtheres {
+    width: 100%;
+    height: 330px;
+    background-image: url(../images/international/bg4-3.jpg);
+    min-width: 1280px;
+    background-position: center;
+    background-size: auto 100%;
+    overflow: hidden;
+}
+
+.bgfour {
+    width: 100%;
+    height: 1125px;
+    background-image: url(../images/international/bg5.jpg);
+    min-width: 1280px;
+    background-position: center;
+    background-size: auto 100%;
+    overflow: hidden;
+}
+
+.bgfour-busi {
+    width: 75%;
+    height: 566px;
+    /* background: red; */
+    margin: 430px auto 0 auto;
+    min-width: 70%;
+    position: relative;
+}
+
+.bgfour-busi a {
+    display: inline-block;
+    margin-left: 35px;
+}
+
+.busi-img {
+    width: 437px;
+    height: 566px;
+    background-image: url(../images/international/busi.png)
+}
+
+.busi-wenzi {
+    width: 885px;
+    height: 530px;
+    background-image: url(../images/international/busis.png);
+    position: absolute;
+    top: 1px;
+}
+
+.bgfive {
+    width: 100%;
+    height: 1030px;
+    background-image: url(../images/international/bg6.jpg);
+    min-width: 1280px;
+    background-position: center;
+    background-size: auto 100%;
+    overflow: hidden;
+}
+
+.bgfive-gongyi {
+    width: 75%;
+    height: 566px;
+    /* background: red; */
+    margin: 243px auto 0 auto;
+    min-width: 70%;
+    position: relative;
+}
+
+.bgfive-gongyi a {
+    display: inline-block;
+    margin-left: 35px;
+}
+
+.gongyi-img {
+    width: 437px;
+    height: 566px;
+    background-image: url(../images/international/gongyi.png)
+}
+
+.gongyi-wenzi {
+    width: 885px;
+    height: 445px;
+    background: url(../images/international/gongyis.png) no-repeat;
+    position: absolute;
+    top: 10px;
+}
+
+.bgsix {
+    width: 100%;
+    height: 1030px;
+    background-image: url(../images/international/bg7.jpg);
+    min-width: 1280px;
+    background-position: center;
+    background-size: auto 100%;
+    overflow: hidden;
+}
+
+.shouyi-img {
+    width: 435px;
+    height: 564px;
+    background-image: url(../images/international/shouyi.png);
+}
+
+.shouyi-wenzi {
+    width: 895px;
+    height: 541px;
+    background-image: url(../images/international/shouyis.png);
+    position: absolute;
+    top: 2px;
+}
+
+.bgsenven {
+    width: 100%;
+    height: 1030px;
+    background-image: url(../images/international/bg8.jpg);
+    min-width: 1280px;
+    background-position: center;
+    background-size: auto 100%;
+    overflow: hidden;
+}
+
+.linong-img {
+    width: 442px;
+    height: 570px;
+    background-image: url(../images/international/linong.png);
+}
+
+.linong-wenzi {
+    width: 890px;
+    height: 543px;
+    /* background: red; */
+    background-image: url(../images/international/linongs.png);
+    position: absolute;
+    top: 1px;
+}
+
+.bgeight {
+    width: 100%;
+    height: 1149px;
+    background-image: url(../images/international/bg9.jpg);
+    min-width: 1280px;
+    background-position: center;
+    background-size: auto 100%;
+    overflow: hidden;
+}
+
+.guoli-img {
+    width: 442px;
+    height: 571px;
+    background-image: url(../images/international/guoli.png)
+}
+
+.guoli-wenzi {
+    width: 899px;
+    height: 591px;
+    background-image: url(../images/international/guolis.png);
+    position: absolute;
+    top: 1px;
+}
+
+.bgnight {
+    width: 100%;
+    height: 2320px;
+    background-image: url(../images/international/bg10.jpg);
+    min-width: 1280px;
+    background-position: center;
+    background-size: auto 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.bgten {
+    width: 100%;
+    height: 630px;
+    background-image: url(../images/international/bg11.jpg);
+    min-width: 1280px;
+    background-position: center;
+    background-size: auto 100%;
+    overflow: hidden;
+}
+
+.bgnight a {
+    width: 63%;
+    height: 1487px;
+    background-image: url(../images/international/zhengche.png);
+    display: block;
+    margin: 0 auto;
+    margin-top: 503px;
+}
+
+.bgnight img {
+    position: absolute;
+    left: 35%;
+    top: 8%
+}
+
+.bgten-up {
+    width: 466px;
+    height: 140px;
+    background-image: url(../images/international/tel.png);
+    display: block;
+    margin-top: 96px;
+    margin-left: 285px;
+}
+
+.bgten-down {
+    width: 1209px;
+    height: 173px;
+    margin: 0 auto;
+    background-image: url(../images/international/top.png);
+    display: block;
+    margin-top: 130px;
+}
+
+#qiao {
+    width: 500px;
+    height: 500px;
+    margin-top: -250px;
+    margin-left: -250px;
+    left: 50%;
+    top: 50%;
+    position: fixed;
+    z-index: 999;
+    display: none;
+}

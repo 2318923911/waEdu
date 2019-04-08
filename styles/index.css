@@ -4,29 +4,86 @@
     list-style-type: none;
 }
 
+.head {
+    width: 100%;
+    box-sizing: border-box
+}
+
 .bg {
     width: 100%;
     height: 665px;
+    background-position: center;
+    background-size: auto 100%;
+    min-width: 1280px;
     position: relative;
-    background: url(../images/bg.png) no-repeat;
-}
-
-.head {
-    width: 100%;
-    height: 100%;
 }
 
 .navs {
     width: 100%;
     height: 111px;
+    /* background: #000000; */
     box-sizing: border-box;
-    position: absolute;
     top: 0;
+    position: fixed;
+    z-index: 999;
     background: url(../images/navbg.png) no-repeat;
 }
 
+.navs div {
+    width: 1200px;
+    margin: 0 auto;
+    height: 111px;
+    line-height: 99px;
+}
+
 .navs img {
-    margin: 20px 350px;
+    margin: 0;
+    vertical-align: middle;
+}
+
+#bgbanner {
+    position: relative;
+    width: 100%;
+    height: 665px;
+    overflow: hidden;
+}
+
+#pic {
+    width: 100%;
+    height: 100%;
+}
+
+#pic li {
+    float: left;
+    display: none;
+    width: 100%;
+    height: 665px;
+}
+
+#pic li.cur {
+    display: block;
+    transition: all 1s ease-in;
+}
+
+#round {
+    width: 100%;
+    height: 15px;
+    position: absolute;
+    top: 95%;
+    text-align: center;
+}
+
+#round a {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    margin-left: 5px;
+    background-image: url(../images/rounds.png);
+    cursor: pointer;
+}
+
+#round a.rounds {
+    background-image: url(../images/round.png);
 }
 
 .characters img {
@@ -35,71 +92,71 @@
     position: absolute
 }
 
-.round {
-    width: 100%;
-    /* height: 100px; */
-    position: absolute;
-    /* background: #000000; */
-    top: 95%;
-    text-align: center
-}
-
 .center {
     width: 100%;
     height: 320px;
-    position: relative;
-    background: url(../images/center.png) no-repeat;
-    z-index: 3000;
+    background-image: url(../images/center.png);
+    overflow: hidden;
+    background-position: center;
+    background-size: auto 320px;
+    /* padding-top: 55px; */
 }
 
 .teach {
-    width: 62%;
-    height: 120px;
-    left: 19%;
-    top: 15%;
-    position: absolute;
-}
-
-.teach-center {
-    width: 30%;
+    width: 1400px;
+    height: 160px;
     margin: 0 auto;
+    position: relative;
+    margin-top: 80px;
 }
 
-.teach-center-zhiye {
+.teacherHolder a{
+    display: block;
     position: absolute;
-    top: 25%;
-    left: 76%;
+    top: 30px;
     cursor: pointer;
 }
 
-.teach-left {
-    width: 30%;
-    float: left;
+.teach-left a {
+    background-image: url(../images/xueli.png);
+    left: 68px;
+    width: 187px;
+    height: 65px;
 }
 
-.teach-left-xueli {
-    position: absolute;
-    top: 25%;
-    left: 6%;
-    cursor: pointer;
+.teach-center a {
+    background-image: url(../images/zhiye.png);
+    left: 66px;
+    width: 188px;
+    height: 64px;
 }
 
-.teach-right {
-    width: 30%;
-    float: right;
+.teach-right a {
+    background-image: url(../images/jiaoyu.png);
+    left: 70px;
+    width: 186px;
+    height: 62px;
+}
+.teachMent{
+    margin-right: 0!important;
+}
+.teachMent a{
+    background-image: url(../images/BIM.png);
+    height: 64px;
+    width: 195px;
+    left:63px;
 }
 
-.teach-right-guoji {
-    position: absolute;
-    top: 25%;
-    left: 41%;
-    cursor: pointer;
+.teacherHolder{
+    background-image: url(../images/move.png);
+    display: inline-block;
+    width: 310px;
+    height: 128px;
+    position: relative;
+    margin-right: 48px;
 }
 
-.teach-center:hover,
-.teach-left:hover,
-.teach-right:hover {
-    width: 30%;
+.teacherHolder:hover{
     background: url(../images/moveto.png) no-repeat;
 }
 
@@ -107,28 +164,114 @@
     width: 100%;
     height: 216px;
     background: url(../images/bgtop.png) no-repeat;
+    background-position: center;
+    overflow: hidden;
+    background-size: auto 100%;
+    min-width: 1280px;
     position: relative;
 }
 
 .tops {
-    width: 62%;
+    width: 1190px;
     height: 120px;
-    left: 19%;
-    top: 15%;
-    position: absolute;
+    margin: 30px auto 0 auto;
+    /* background: red; */
+    position: relative;
 }
 
-.tops img:first-of-type {
-    float: left;
+.tops-left {
+    width: 61%;
+    /* background: #ffffff; */
+    float: left
+    /* font-size: 12px */
 }
 
-.tops img:last-of-type {
+.tops-left span {
+    line-height: 35px;
+}
+
+.tops-right {
+    width: 34%;
+    /* background: #000000; */
     float: right;
+    vertical-align: middle;
 }
 
-.tops span {
-    right: 0.75%;
+.tops-right img:last-of-type {
+    margin-right: 0
+}
+
+.tops-right span {
+    right: 1.25%;
     position: absolute;
-    top: 120%;
+    top: 123%;
     font-size: 12px
+}
+
+@media screen and (max-width:1366px) {}
+
+@media screen and (max-width:1024px) {}
+
+@media screen and (max-width:768px) {}
+
+@media screen and (max-width:600px) {}
+
+@media screen and (max-width:533px) {
+    /*android  1600*2560 533*853 x3*/
+    body,
+    .navs {
+        width: 100vw;
+    }
+    body {
+        padding-top: 11.73vw;
+    }
+    .navs,
+    .navs div {
+        height: 11.73vw;
+        line-height: 11.73vw;
+        background-size: auto 11.73vw;
+    }
+    .navs div img {
+        height: 7vw;
+        line-height: 11.73vw;
+        vertical-align: middle;
+        margin-top: -2vw;
+        margin-left: 2vw;
+    }
+    .bg {
+        width: 100vw;
+        height: 34.635vw;
+    }
+    #bgbanner {
+        position: relative;
+        width: 100%;
+        height: 34.635vw;
+        overflow: hidden;
+    }
+    #pic li {
+        height: 34.635vw;
+    }
+    #pic li img {
+        display: block;
+        width: 100vw;
+        height: 34.635vw;
+    }
+}
+
+@media screen and (max-width:425px) {}
+
+@media screen and (max-width:414px) {
+    /* iphone6/7/8 plus 414*736 1080*1920 x2.6*/
+}
+
+@media screen and (max-width:375px) {
+    /* iphone6/7/8 750*1334 x2 375*667*/
+}
+
+@media screen and (max-width:360px) {
+    /*android 1080*1920 x3*/
+}
+
+@media screen and (max-width:320px) {
+    /*iphone5*/
 }

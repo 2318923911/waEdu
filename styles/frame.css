@@ -1,0 +1,833 @@
+          * {
+              padding: 0;
+              margin: 0;
+              list-style-type: none;
+              box-sizing: border-box;
+          }
+          
+          .all {
+              width: 100%;
+              box-sizing: border-box;
+          }
+          
+          .bg {
+              width: 100%;
+              height: 910px;
+              background-image: url(../images/frame/1.b.jpg);
+              overflow: hidden;
+              background-position: center;
+              background-size: auto 100%;
+              min-width: 1280px;
+          }
+          
+          .logo {
+              width: 229px;
+              height: 58px;
+              display: block;
+              background-image: url(../images/frame/logo.png);
+              margin: 30px 60px;
+          }
+          
+          .bgheads {
+              width: 100%;
+              height: 590px;
+              background: url(../images/frame/2.jpg) no-repeat;
+              overflow: hidden;
+              background-position: center;
+              background-size: auto 100%;
+              min-width: 1280px;
+              position: relative;
+          }
+          
+          .bgcenter {
+              width: 100%;
+              height: 600px;
+              background: url(../images/frame/3.jpg) no-repeat;
+              position: relative;
+              background-position: center;
+          }
+          
+          #more {
+              display: block;
+              width: 540px;
+              height: 425px;
+              margin-left: 290px;
+              /* background: #000000; */
+              text-align: center;
+          }
+          
+          #more img {
+              margin-top: 350px;
+              cursor: pointer;
+          }
+          
+          #more img:hover {
+              background: url(../images/frame/mores.png) no-repeat;
+          }
+          
+          .bgcenters {
+              width: 100%;
+              height: 900px;
+              background: url(../images/frame/4.jpg) no-repeat;
+              cursor: pointer;
+          }
+          
+          .bgfive {
+              width: 100%;
+              height: 850px;
+              background: url(../images/frame/5.jpg) no-repeat;
+              position: relative;
+          }
+          
+          .bgfive-up {
+              width: 64.25%;
+              height: 20px;
+              background: #FFFFFF;
+              position: absolute;
+              top: 73%;
+              left: 18.25%;
+          }
+          
+          .bgfive-up span {
+              width: 20%;
+              text-align: center;
+          }
+          
+          .bgfive-up span:first-of-type {
+              left: 0
+          }
+          
+          .bgfive-up span:last-of-type {
+              right: 0;
+          }
+          
+          .bgsix {
+              width: 100%;
+              height: 950px;
+              background: url(../images/frame/6.jpg) no-repeat;
+              background-position: center;
+              overflow: hidden;
+              background-size: auto 100%;
+              min-width: 1280px;
+              cursor: pointer;
+          }
+          
+          .bgsenven {
+              width: 100%;
+              height: 600px;
+              background: url(../images/frame/7.jpg) no-repeat;
+              background-position: center;
+              overflow: hidden;
+              background-size: auto 100%;
+              min-width: 1280px;
+              cursor: pointer;
+          }
+          
+          .bgtop {
+              width: 100%;
+              height: 800px;
+              background: url(../images/frame/8.jpg) no-repeat;
+              cursor: pointer;
+              position: relative;
+              background-position: center;
+              overflow: hidden;
+              background-size: auto 100%;
+              min-width: 1435px;
+              padding-top: 140px;
+          }
+          
+          .school {
+              background-image: url(../images/frame/8.1.png);
+              width: 1436px;
+              height: 495px;
+              position: relative;
+              margin: 0 290px 165px;
+              min-width: 1435px;
+          }
+          
+          #school-one,
+          #school-two,
+          #school-there {
+              top: 35%;
+          }
+          
+          #school-four,
+          #school-five,
+          #school-six {
+              top: 85.5%
+          }
+          
+          #school-one,
+          #school-four {
+              left: 16.5%;
+          }
+          
+          #school-two,
+          #school-five {
+              left: 50%;
+          }
+          
+          #school-there,
+          #school-six {
+              left: 83.75%
+          }
+          
+          #school-one,
+          #school-two,
+          #school-there,
+          #school-four,
+          #school-five,
+          #school-six {
+              position: absolute;
+              display: block;
+              width: 146px;
+              height: 32px;
+              background: url(../images/frame/school.png) no-repeat;
+          }
+          
+          #school-one:hover,
+          #school-two:hover,
+          #school-there:hover,
+          #school-four:hover,
+          #school-five:hover,
+          #school-six:hover {
+              background: url(../images/frame/schools.png) no-repeat;
+          }
+          
+          #bgu1 {
+              width: 100%;
+              height: 1140px;
+          }
+          
+          #bgu1_1 {
+              width: 100%;
+              height: 470px;
+              background-image: url(../images/frame/9_1.jpg);
+              background-position: center;
+              overflow: hidden;
+              background-size: auto 100%;
+              min-width: 1280px;
+          }
+          
+          #bgu1_2 {
+              width: 100%;
+              height: 670px;
+              background-image: url(../images/frame/9_2.jpg);
+              background-position: center;
+              overflow: hidden;
+              background-size: auto 100%;
+              min-width: 1280px;
+          }
+          
+          #bgu1_2_problem {
+              width: 1171px;
+              height: 500px;
+              /* background: red; */
+              margin: 0 auto;
+              min-width: 1171px;
+          }
+          
+          #bgu1_2_problem span {
+              margin-bottom: 80px;
+              display: inline-block;
+              cursor: pointer;
+          }
+          
+          #bgu2 {
+              width: 100%;
+              height: 1710px;
+          }
+          
+          #bgu2_1 {
+              width: 100%;
+              height: 670px;
+              background-image: url(../images/frame/10_1.jpg);
+              background-position: center;
+              overflow: hidden;
+              background-size: auto 100%;
+              min-width: 1280px;
+          }
+          
+          #bgu2_2 {
+              width: 100%;
+              height: 670px;
+              background-image: url(../images/frame/10_2.jpg);
+              background-position: center;
+              overflow: hidden;
+              background-size: auto 100%;
+              min-width: 1280px;
+          }
+          
+          #bgu2_3 {
+              width: 100%;
+              height: 670px;
+              background-image: url(../images/frame/10_3.jpg);
+              background-position: center;
+              overflow: hidden;
+              background-size: auto 100%;
+              min-width: 1280px;
+          }
+          
+          #bgu3 {
+              width: 100%;
+              height: 1045px;
+              background-image: url(../images/frame/11.jpg);
+              background-position: center;
+              overflow: hidden;
+              background-size: auto 100%;
+              min-width: 1280px;
+              position: relative;
+          }
+          
+          #bgu3_table {
+              width: 60%;
+              height: 200px;
+              /* background: #000000; */
+              position: absolute;
+              bottom: 40px;
+              right: 0;
+          }
+          
+          #bgu3_table input::-webkit-input-placeholder {
+              color: #ffffff;
+          }
+          
+          #bgu3_table input:-moz-placeholder {
+              color: #ffffff;
+          }
+          
+          #bgu3_table input::-moz-placeholder {
+              color: #ffffff;
+          }
+          
+          #bgu3_table input:-ms-input-placeholder {
+              color: #ffffff;
+          }
+          
+          #bgu3_table input {
+              width: 210px;
+              height: 50px;
+              border-radius: 20px;
+              background: transparent;
+              border: 2px solid #ffffff;
+              margin-right: 60px;
+              font-size: 20px;
+              color: #ffffff;
+              outline: none
+          }
+          
+          #bgu4 {
+              width: 100%;
+              height: 2775px;
+          }
+          
+          #bgu4_1 {
+              width: 100%;
+              height: 400px;
+              background-image: url(../images/frame/12_1.jpg);
+              background-position: center;
+              overflow: hidden;
+              background-size: auto 100%;
+              min-width: 1280px;
+          }
+          
+          #bgu4_2 {
+              width: 100%;
+              height: 1170px;
+              background-image: url(../images/frame/12_2.jpg);
+              background-position: center;
+              overflow: hidden;
+              background-size: auto 100%;
+              min-width: 1280px;
+          }
+          
+          #bgu4_2_tree {
+              width: 895px;
+              height: 1044px;
+              background-image: url(../images/frame/12_2_1.png);
+              position: relative;
+              left: 510px;
+              bottom: -113px;
+              min-width: 895px;
+          }
+          
+          #bgu4_2_tree_1,
+          #bgu4_2_tree_2,
+          #bgu4_2_tree_3,
+          #bgu4_2_tree_4,
+          #bgu4_2_tree_5,
+          #bgu4_2_tree_6,
+          #bgu4_2_tree_7,
+          #bgu4_2_tree_8,
+          #bgu4_2_tree_9,
+          #bgu4_2_tree_10,
+          #bgu4_2_tree_11,
+          #bgu4_2_tree_12,
+          #bgu4_2_tree_13,
+          #bgu4_2_tree_14 {
+              display: inline-block;
+              position: absolute;
+              cursor: pointer;
+          }
+          
+          #bgu4_2_tree_1 {
+              background-image: url(../images/frame/mouse/tishengqiqan.png);
+              background-size: 149px 149px;
+              left: 265px;
+              top: -50px;
+              width: 149px;
+              height: 149px;
+          }
+          
+          #bgu4_2_tree_1:hover {
+              width: 192px;
+              height: 186px;
+              background-size: 192px 186px;
+              background-image: url(../images/frame/mouse/tishenghou.png);
+              position: absolute;
+              top: -63px;
+              left: 245px;
+          }
+          
+          #bgu4_2_tree_2 {
+              width: 122px;
+              height: 122px;
+              background-size: 122px 122px;
+              background-image: url(../images/frame/mouse/mengixnagqian.png);
+              left: 488px;
+              top: -28px
+          }
+          
+          #bgu4_2_tree_2:hover {
+              width: 152px;
+              height: 147px;
+              background-size: 152px 147px;
+              background-image: url(../images/frame/mouse/mengxianghou.png);
+              left: 475px;
+              top: -42px;
+          }
+          
+          #bgu4_2_tree_3 {
+              width: 181px;
+              height: 182px;
+              background-size: 181px 181px;
+              background-image: url(../images/frame/mouse/zhiyeqian.png);
+              left: 650px;
+              top: 34px;
+          }
+          
+          #bgu4_2_tree_3:hover {
+              width: 232px;
+              height: 224px;
+              background-size: 232px 224px;
+              background-image: url(../images/frame/mouse/zhiyehou.png);
+              left: 634px;
+              top: 11px;
+          }
+          
+          #bgu4_2_tree_4 {
+              width: 154px;
+              height: 154px;
+              background-size: 154px 154px;
+              background-image: url(../images/frame/mouse/pingzhiqian.png);
+              left: 36px;
+              top: 146px;
+          }
+          
+          #bgu4_2_tree_4:hover {
+              width: 197px;
+              height: 190px;
+              background-size: 197px 190px;
+              background-image: url(../images/frame/mouse/pingzhihou.png);
+              left: 18px;
+              top: 126px;
+          }
+          
+          #bgu4_2_tree_5 {
+              width: 122px;
+              height: 122px;
+              background-size: 122px 122px;
+              background-image: url(../images/frame/mouse/tioacaoqian.png);
+              left: 272px;
+              top: 240px;
+          }
+          
+          #bgu4_2_tree_5:hover {
+              width: 145px;
+              height: 140px;
+              background-size: 145px 140px;
+              background-image: url(../images/frame/mouse/tiaocaohou.png);
+              left: 270px;
+              top: 235px;
+          }
+          
+          #bgu4_2_tree_6 {
+              width: 125px;
+              height: 125px;
+              background-size: 125px 125px;
+              background-image: url(../images/frame/mouse/juzhuzhengqian.png);
+              left: 461px;
+              top: 199px;
+          }
+          
+          #bgu4_2_tree_6:hover {
+              width: 154px;
+              height: 149px;
+              background-size: 154px 149px;
+              background-image: url(../images/frame/mouse/juzhuzhenghou.png);
+              left: 443px;
+              top: 183px;
+          }
+          
+          #bgu4_2_tree_7 {
+              width: 122px;
+              height: 122px;
+              background-size: 122px 122px;
+              background-image: url(../images/frame/mouse/bufenqian.png);
+              left: 836px;
+              top: 212px;
+          }
+          
+          #bgu4_2_tree_7:hover {
+              width: 152px;
+              height: 147px;
+              background-size: 152px 147px;
+              background-image: url(../images/frame/mouse/bufenhou.png);
+              left: 825px;
+              top: 199px;
+          }
+          
+          #bgu4_2_tree_8 {
+              width: 122px;
+              height: 122px;
+              background-size: 122px 122px;
+              background-image: url(../images/frame/mouse/kaoyanqian.png);
+              left: 666px;
+              top: 333px;
+          }
+          
+          #bgu4_2_tree_8:hover {
+              width: 154px;
+              height: 149px;
+              background-size: 154px 149px;
+              background-image: url(../images/frame/mouse/kaoyanhou.png);
+              left: 642px;
+              top: 316px;
+          }
+          
+          #bgu4_2_tree_9 {
+              width: 194px;
+              height: 194px;
+              background-size: 194px 194px;
+              background-image: url(../images/frame/mouse/gaibianqian.png);
+              left: -68px;
+              top: 431px;
+          }
+          
+          #bgu4_2_tree_9:hover {
+              width: 236px;
+              height: 231px;
+              background-size: 236px 231px;
+              background-image: url(../images/frame/mouse/gaibianhou.png);
+              left: -92px;
+              top: 398px;
+          }
+          
+          #bgu4_2_tree_10 {
+              width: 143px;
+              height: 143px;
+              background-size: 143px 143px;
+              background-image: url(../images/frame/mouse/gongwuyuanqian.png);
+              left: 228px;
+              top: 459px;
+          }
+          
+          #bgu4_2_tree_10:hover {
+              width: 195px;
+              height: 189px;
+              background-size: 195px 189px;
+              background-image: url(../images/frame/mouse/gongwuyuanhou.png);
+              left: 208px;
+              top: 435px;
+          }
+          
+          #bgu4_2_tree_11 {
+              width: 119px;
+              height: 119px;
+              background-size: 119px 119px;
+              background-image: url(../images/frame/mouse/liuxueqian.png);
+              left: 537px;
+              top: 513px;
+          }
+          
+          #bgu4_2_tree_11:hover {
+              width: 154px;
+              height: 149px;
+              background-size: 154px 149px;
+              background-image: url(../images/frame/mouse/liuxuehou.png);
+              left: 523px;
+              top: 498px;
+          }
+          
+          #bgu4_2_tree_12 {
+              width: 190px;
+              height: 190px;
+              background-size: 190px 190px;
+              background-image: url(../images/frame/mouse/renshengqian.png);
+              left: 777px;
+              top: 433px;
+          }
+          
+          #bgu4_2_tree_12:hover {
+              width: 236px;
+              height: 231px;
+              background-size: 236px 231px;
+              background-image: url(../images/frame/mouse/renshenghou.png);
+              left: 758px;
+              top: 408px;
+          }
+          
+          #bgu4_2_tree_13 {
+              width: 109px;
+              height: 109px;
+              background-size: 109px 109px;
+              background-image: url(../images/frame/mouse/chuguoqian.png);
+              left: 95px;
+              top: 685px
+          }
+          
+          #bgu4_2_tree_13:hover {
+              width: 146px;
+              height: 142px;
+              background-size: 146px 142px;
+              background-image: url(../images/frame/mouse/chuguohou.png);
+              left: 74px;
+              top: 666px;
+          }
+          
+          #bgu4_2_tree_14 {
+              width: 109px;
+              height: 109px;
+              background-size: 109px 109px;
+              background-image: url(../images/frame/mouse/jiaxinqian.png);
+              left: 699px;
+              top: 687px;
+          }
+          
+          #bgu4_2_tree_14:hover {
+              width: 146px;
+              height: 142px;
+              background-size: 146px 142px;
+              background-image: url(../images/frame/mouse/jiaxinhou.png);
+              left: 677px;
+              top: 666px;
+          }
+          
+          #bgu4_2_tree_15 {
+              width: 258px;
+              height: 82px;
+              display: inline-block;
+              background-image: url(../images/frame/mouse/lmoreqian.png);
+              position: absolute;
+              bottom: 250px;
+              left: 320px;
+              cursor: pointer;
+          }
+          
+          #bgu4_2_tree_15:hover {
+              background-image: url(../images/frame/mouse/lmorehou.png)
+          }
+          
+          #bgu4_3 {
+              width: 100%;
+              height: 650px;
+              background-image: url(../images/frame/12_3.jpg);
+              background-position: center;
+              overflow: hidden;
+              background-size: auto 100%;
+              min-width: 1280px;
+          }
+          
+          #bgu4_4 {
+              width: 100%;
+              height: 555px;
+              background-image: url(../images/frame/12_4.jpg);
+              background-position: center;
+              overflow: hidden;
+              background-size: auto 100%;
+              min-width: 1555px;
+          }
+          
+          #bgu4_4_college {
+              width: 1555px;
+              height: 360px;
+              margin: 0 auto;
+              min-width: 1555px;
+              /* background-color: black; */
+          }
+          
+          #bgu4_4_college_1,
+          #bgu4_4_college_2,
+          #bgu4_4_college_3,
+          #bgu4_4_college_4 {
+              margin-right: 43px;
+              cursor: pointer;
+          }
+          
+          #bgu4_4_college_1 {
+              width: 269px;
+              height: 349px;
+              background-image: url(../images/frame/hbqian.png);
+              display: inline-block;
+          }
+          
+          #bgu4_4_college_1:hover {
+              width: 281px;
+              height: 360px;
+              background-image: url(../images/frame/hbhou.png);
+              /* transform: translateY(-4px); */
+          }
+          
+          #bgu4_4_college_2 {
+              width: 269px;
+              height: 349px;
+              background-image: url(../images/frame/gongyeqian.png);
+              display: inline-block;
+          }
+          
+          #bgu4_4_college_2:hover {
+              width: 281px;
+              height: 360px;
+              background-image: url(../images/frame/gongyehou.png);
+              /* transform: translateY(-4px); */
+          }
+          
+          #bgu4_4_college_3 {
+              width: 269px;
+              height: 349px;
+              background-image: url(../images/frame/shifanqian.png);
+              display: inline-block;
+          }
+          
+          #bgu4_4_college_3:hover {
+              width: 281px;
+              height: 360px;
+              background-image: url(../images/frame/shifanhou.png);
+              /* transform: translateY(-4px); */
+          }
+          
+          #bgu4_4_college_4 {
+              width: 269px;
+              height: 349px;
+              background-image: url(../images/frame/ligonghou.png);
+              display: inline-block;
+          }
+          
+          #bgu4_4_college_4:hover {
+              width: 281px;
+              height: 360px;
+              background-image: url(../images/frame/ligongqian.png);
+              /* transform: translateY(-4px); */
+          }
+          
+          #bgu4_4_college_5 {
+              width: 269px;
+              height: 349px;
+              background-image: url(../images/frame/ershiqian.png);
+              display: inline-block;
+              cursor: pointer;
+          }
+          
+          #bgu4_4_college_5:hover {
+              width: 281px;
+              height: 360px;
+              background-image: url(../images/frame/ershihou.png);
+              /* transform: translateY(-4px); */
+          }
+          
+          .bgtops {
+              width: 100%;
+              height: 800px;
+              background: url(../images/frame/13.jpg) no-repeat;
+              background-position: center;
+              overflow: hidden;
+              background-size: auto 100%;
+              min-width: 1280px;
+              padding-top: 100px;
+          }
+          
+          .bgtops-boxs {
+              width: 1320px;
+              position: relative;
+              margin: 0 auto;
+              height: 470px;
+              /* background: #000000; */
+              min-width: 1280px;
+          }
+          /* .logos {
+              display: block;
+              width: 193px;
+              height: 49px;
+              background-image: url(../images/frame/logos.png)
+          } */
+          
+          #choose {
+              position: absolute;
+              top: 17%;
+              left: 74%;
+              font-size: 24px;
+              cursor: pointer;
+          }
+          
+          .bgtops-up {
+              width: 100%;
+              height: 30%;
+              /* background: #818181; */
+          }
+          
+          .bgtops-box {
+              width: 100%;
+              height: 60%;
+              position: absolute;
+              /* top: 32%;
+              left: 15%; */
+              min-width: 1280px;
+          }
+          
+          .bgtops-left {
+              width: 59%;
+              box-sizing: border-box;
+              display: inline-block;
+          }
+          
+          .bgtops-left img {
+              margin-right: 20px
+          }
+          
+          .bgtops-right {
+              width: 40%;
+              box-sizing: border-box;
+              display: inline-block;
+          }
+          
+          .bgtops-right span {
+              cursor: pointer;
+          }
+          
+          .bgtops-right span,
+          .bgtops-right img {
+              margin-left: 55px;
+              margin-top: 21px;
+          }
+          
+          #qiaoOnly {
+              position: fixed;
+              left: 50%;
+              top: 50%;
+              width: 500px;
+              height: 500px;
+              margin-left: -250px;
+              margin-top: -250px;
+              z-index: 999;
+              display: none;
+          }

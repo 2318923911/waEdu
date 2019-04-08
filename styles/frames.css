@@ -1,0 +1,543 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .all {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .bghead {
+        width: 100%;
+        height: 700px;
+        background: url(../images/frames/1.jpg);
+        background-position: center;
+        overflow: hidden;
+        background-size: auto 100%;
+        min-width: 1280px;
+    }
+    
+    .logo {
+        width: 100%;
+        position: relative;
+        top: -95px;
+        min-width: 1280px;
+    }
+    
+    .navs {
+        width: 100%;
+        height: 104px;
+        /* background: #000000; */
+        box-sizing: border-box;
+        top: 0;
+        position: fixed;
+        z-index: 999;
+        background: url(../images/frames/yinying.png) no-repeat;
+    }
+    
+    .navs a {
+        display: inline-block;
+        width: 249px;
+        height: 68px;
+        background-image: url(../images/frames/logo.png);
+        margin: 18px 390px;
+    }
+    
+    .logo img:last-of-type {
+        margin-top: 20%;
+        position: absolute;
+        left: 21%;
+    }
+    
+    .logo img {
+        display: block;
+    }
+    
+    .bgcertificate {
+        width: 100%;
+        height: 1000px;
+        background: url(../images/frames/2.jpg);
+        background-position: center;
+        overflow: hidden;
+        background-size: auto 100%;
+        min-width: 1280px;
+        padding-top: 333px;
+    }
+    
+    .bgcertificate-box {
+        width: 1000px;
+        height: 555px;
+        margin: 0 auto;
+        position: relative;
+    }
+    
+    .cate-one,
+    .cate-two,
+    .cate-there,
+    .cate-four,
+    .cate-five,
+    .cate-six,
+    .cate-senven,
+    .cate-eight {
+        width: 226px;
+        height: 129px;
+        display: inline-block;
+    }
+    
+    .cate-one,
+    .cate-two,
+    .cate-there {
+        margin-right: 24px;
+    }
+    
+    .cate-one {
+        background-image: url(../images/frames/2_1.png)
+    }
+    
+    .cate-two {
+        background-image: url(../images/frames/2_2.png)
+    }
+    
+    .cate-there {
+        background-image: url(../images/frames/2_3.png)
+    }
+    
+    .cate-four {
+        background-image: url(../images/frames/2_4.png);
+    }
+    
+    .cate-five {
+        background-image: url(../images/frames/2_5.png);
+        position: absolute;
+        top: 185px;
+        left: 0;
+    }
+    
+    .cate-six {
+        background-image: url(../images/frames/2_6.png);
+        position: absolute;
+        top: 185px;
+        right: 10px;
+    }
+    
+    .cate-senven {
+        background-image: url(../images/frames/2_7.png);
+        position: absolute;
+        top: 395px;
+        left: 0;
+    }
+    
+    .cate-eight {
+        background-image: url(../images/frames/2_8.png);
+        position: absolute;
+        top: 395px;
+        right: 10px;
+    }
+    /* .bgcertificate img:last-of-type {
+    margin: 0 auto;
+} */
+    
+    #bgcertificate-one,
+    #bgcertificate-five,
+    #bgcertificate-senven {
+        left: 68px;
+    }
+    
+    #bgcertificate-one,
+    #bgcertificate-two,
+    #bgcertificate-there,
+    #bgcertificate-four {
+        top: 90px;
+    }
+    
+    #bgcertificate-two {
+        left: 320px;
+    }
+    
+    #bgcertificate-there {
+        left: 570px;
+    }
+    
+    #bgcertificate-four {
+        left: 830px;
+    }
+    
+    #bgcertificate-six,
+    #bgcertificate-eight {
+        left: 66px;
+    }
+    
+    #bgcertificate-five,
+    #bgcertificate-six {
+        top: 90px;
+    }
+    
+    #bgcertificate-senven,
+    #bgcertificate-eight {
+        top: 90px
+    }
+    
+    #bgcertificate-one,
+    #bgcertificate-two,
+    #bgcertificate-there,
+    #bgcertificate-four,
+    #bgcertificate-five,
+    #bgcertificate-six,
+    #bgcertificate-senven,
+    #bgcertificate-eight {
+        display: block;
+        position: absolute;
+        height: 26px;
+        width: 95px;
+        background-image: url(../images/frames/oneqian.png);
+        background-position: center;
+        cursor: pointer;
+    }
+    
+    #bgcertificate-one:hover,
+    #bgcertificate-two:hover,
+    #bgcertificate-there:hover,
+    #bgcertificate-four:hover,
+    #bgcertificate-five:hover,
+    #bgcertificate-six:hover,
+    #bgcertificate-senven:hover,
+    #bgcertificate-eight:hover {
+        background: url(../images/frames/onehou.png) no-repeat;
+    }
+    
+    #more {
+        display: block;
+        position: absolute;
+        height: 57px;
+        width: 281px;
+        background-image: url(../images/frames/moreqian.png);
+        background-position: center;
+        top: 109%;
+        left: 36.5%;
+        cursor: pointer;
+    }
+    
+    #more:hover {
+        background: url(../images/frames/morehou.png) no-repeat;
+    }
+    
+    .bgteacher {
+        width: 100%;
+        height: 900px;
+        background: url(../images/frames/3.jpg);
+        background-position: center;
+        overflow: hidden;
+        background-size: auto 100%;
+        min-width: 1280px;
+        position: relative;
+    }
+    
+    .bgteachers {
+        width: 343px;
+        height: 109px;
+        background-image: url(../images/frames/3_1.png);
+        position: absolute;
+        top: 360px;
+        left: 630px;
+    }
+    
+    .bgteacher a {
+        display: block;
+        position: absolute;
+        height: 53px;
+        width: 161px;
+        background-image: url(../images/frames/zixuanqian.png);
+        background-position: center;
+        top: 130px;
+        left: 1px;
+        cursor: pointer;
+    }
+    
+    .bgteacher a:hover {
+        background: url(../images/frames/zixuanhou.png) no-repeat;
+    }
+    
+    .bgplatform {
+        width: 100%;
+        height: 1000px;
+        background: url(../images/frames/4.jpg);
+        background-position: center;
+        overflow: hidden;
+        background-size: auto 100%;
+        min-width: 1280px;
+        position: relative;
+    }
+    
+    #bgplatform-one {
+        top: 52%;
+        left: 41.75%;
+    }
+    
+    #bgplatform-two {
+        top: 85%;
+        left: 20.25%;
+    }
+    
+    #bgplatform-there {
+        top: 85%;
+        left: 62.75%;
+    }
+    
+    #bgplatform-one,
+    #bgplatform-two,
+    #bgplatform-there {
+        display: block;
+        position: absolute;
+        height: 37px;
+        width: 108px;
+        background-image: url(../images/frames/twoqian.png);
+        background-position: center;
+        cursor: pointer;
+    }
+    
+    #bgplatform-one:hover,
+    #bgplatform-two:hover,
+    #bgplatform-there:hover {
+        background: url(../images/frames/twohou.png);
+    }
+    
+    .bgtrain {
+        width: 100%;
+        height: 900px;
+        background: url(../images/frames/5.jpg);
+        background-position: center;
+        overflow: hidden;
+        background-size: auto 100%;
+        min-width: 1280px;
+    }
+    
+    .bgpromise {
+        width: 100%;
+        height: 1000px;
+        background: url(../images/frames/6.jpg);
+        background-position: center;
+        overflow: hidden;
+        background-size: auto 100%;
+        min-width: 1280px;
+    }
+    
+    .bgcurriculum {
+        width: 100%;
+        height: 1150px;
+        background: url(../images/frames/7.jpg);
+        background-position: center;
+        overflow: hidden;
+        background-size: auto 100%;
+        min-width: 1280px;
+        padding-top: 280px;
+    }
+    
+    .bgcurriculum-box {
+        width: 1300px;
+        height: 800px;
+        /* background: #000000; */
+        margin: 0 auto;
+    }
+    
+    .bgcurriculum-box div:nth-child(3n+2) {
+        margin: 0 192px;
+    }
+    
+    .bgcurriculum-box>div:hover {
+        transform: translateY(-5px);
+    }
+    
+    .bgcurriculumone,
+    .bgcurriculumtwo,
+    .bgcurriculumthere,
+    .bgcurriculumfour,
+    .bgcurriculumsix {
+        height: 356px;
+        width: 295px;
+        display: inline-block;
+    }
+    
+    .bgcurriculumone img {
+        margin-left: 27px;
+    }
+    
+    .bgcurriculumtwo img {
+        margin-left: 45px;
+    }
+    
+    .bgcurriculumthere img {
+        margin-left: 50px;
+    }
+    
+    .bgcurriculumfour img {
+        margin-left: 55px
+    }
+    
+    .bgcurriculumsix img {
+        margin-left: 25px;
+    }
+    
+    .bgcurriculumone img,
+    .bgcurriculumtwo img,
+    .bgcurriculumthere img,
+    .bgcurriculumfour img,
+    .bgcurriculumsix img {
+        margin-top: 90px;
+    }
+    
+    .bgcurriculumone a,
+    .bgcurriculumtwo a,
+    .bgcurriculumthere a,
+    .bgcurriculumfour a,
+    .bgcurriculumsix a {
+        width: 161px;
+        height: 46px;
+        display: block;
+        cursor: pointer;
+    }
+    
+    .bgcurriculumone a,
+    .bgcurriculumtwo a,
+    .bgcurriculumthere a,
+    .bgcurriculumfour a,
+    .bgcurriculumsix a {
+        margin-left: 65px;
+        margin-top: 40px;
+    }
+    
+    .bgcurriculumone a {
+        background-image: url(../images/frames/guanjia.png)
+    }
+    
+    .bgcurriculumtwo a {
+        background-image: url(../images/frames/minshi.png)
+    }
+    
+    .bgcurriculumthere a {
+        background-image: url(../images/frames/zhanti.png)
+    }
+    
+    .bgcurriculumfour a {
+        background-image: url(../images/frames/jiaofu.png)
+    }
+    
+    .bgcurriculumsix a {
+        background-image: url(../images/frames/kaodians.png)
+    }
+    
+    .bgcurriculumone a:hover {
+        background-image: url(../images/frames/guanjias.png);
+        transform: translateY(-4px);
+    }
+    
+    .bgcurriculumtwo a:hover {
+        background-image: url(../images/frames/minshis.png);
+        transform: translateY(-4px);
+    }
+    
+    .bgcurriculumthere a:hover {
+        background-image: url(../images/frames/zhentis.png)
+    }
+    
+    .bgcurriculumfour a:hover {
+        background-image: url(../images/frames/jiaofus.png)
+    }
+    
+    .bgcurriculumsix a:hover {
+        background-image: url(../images/frames/suoyao.png)
+    }
+    
+    .bgcurriculumfour,
+    .bgcurriculumfive,
+    .bgcurriculumsix {
+        margin-top: 72px;
+    }
+    
+    .bgcurriculumone {
+        background-image: url(../images/frames/xuexiqian.png);
+    }
+    
+    .bgcurriculumone:hover {
+        background: url(../images/frames/xuexihou.png) no-repeat;
+    }
+    
+    .bgcurriculumtwo {
+        background-image: url(../images/frames/mingshiqian.png);
+    }
+    
+    .bgcurriculumtwo:hover {
+        background-image: url(../images/frames/mingshihou.png);
+    }
+    
+    .bgcurriculumthere {
+        background-image: url(../images/frames/yatiqian.png)
+    }
+    
+    .bgcurriculumthere:hover {
+        background-image: url(../images/frames/yatihou.png)
+    }
+    
+    .bgcurriculumfour {
+        background-image: url(../images/frames/zhuxueqian.png)
+    }
+    
+    .bgcurriculumfour:hover {
+        background-image: url(../images/frames/zhuxuehou.png)
+    }
+    
+    .bgcurriculumfive {
+        height: 98px;
+        width: 295px;
+        display: inline-block;
+        text-align: center;
+        position: relative;
+    }
+    
+    .bgcurriculumfive img {
+        text-align: center;
+        /* top: 15px; */
+        left: -1px;
+        position: absolute;
+    }
+    
+    .bgcurriculumsix {
+        background-image: url(../images/frames/kaodianqian.png);
+    }
+    
+    .bgcurriculumsix:hover {
+        background: url(../images/frames/kaodianhou.png) no-repeat;
+    }
+    
+    .bgtop {
+        width: 100%;
+        height: 700px;
+        background: url(../images/frames/8.jpg);
+        background-position: center;
+        overflow: hidden;
+        background-size: auto 100%;
+        min-width: 1280px;
+    }
+    
+    .bgtops {
+        width: 100%;
+        height: 650px;
+        background: url(../images/frames/9.jpg);
+        background-position: center;
+        overflow: hidden;
+        background-size: auto 100%;
+        min-width: 1280px;
+    }
+    
+    #qiao {
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        width: 500px;
+        height: 500px;
+        margin-left: -250px;
+        margin-top: -250px;
+        z-index: 999;
+        display: none;
+    }

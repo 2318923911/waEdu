@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li,
+a,
+ol,
+p {
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+section{
+    width: 100%;
+    box-sizing: border-box;
+}
+.common{
+    background-repeat: no-repeat;
+    min-width: 1300px;
+    background-position: center;
+    width: 100%;
+}
+.header {
+    background-image: url(../images/BIM/bg1.png);
+    height: 925px; 
+    position: relative;
+}
+.header a{
+    position: absolute;
+    display: inline-block;
+    height: 110px;
+    width: 230px;
+    top: 5%;
+    left: 3.5%;
+}
+
+.technology {
+    height: 455px;
+    background-color: #d0e3f5;
+}
+
+.contentHolder {
+    width: 1288px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.technology .contentHolder .introduce {
+    width: 300px;
+    height: auto;
+    margin-right: 29px;
+    float: left;
+    margin-top: 75px;
+}
+
+.technology .contentHolder .introduce a {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    display: block;
+    margin: 0 auto;
+}
+
+.technology .contentHolder .introduce p {
+    text-align: center;
+    line-height: 40px;
+    margin-top: 45px;
+    color: #504f4f;
+    font-size: 24px;
+}
+
+.technology .contentHolder .consult a {
+    background-image: url(../images/BIM/all.png);
+    width: 134px;
+    height: 134px;
+}
+
+.technology .contentHolder .consult a:hover {
+    background-image: url(../images/BIM/all1.png);
+}
+
+.technology .contentHolder .resource a {
+    background-image: url(../images/BIM/accumulative.png);
+    width: 150px;
+    height: 130px;
+}
+
+.technology .contentHolder .resource a:hover {
+    background-image: url(../images/BIM/accumulative1.png);
+}
+
+.technology .contentHolder .develop a {
+    background-image: url(../images/BIM/recommend.png);
+    width: 136px;
+    height: 122px;
+}
+
+.technology .contentHolder .develop a:hover {
+    background-image: url(../images/BIM/recommend1.png);
+}
+
+.technology .contentHolder .specialty a {
+    background-image: url(../images/BIM/news.png);
+    width: 144px;
+    height: 128px;
+}
+
+.technology .contentHolder .specialty a:hover {
+    background-image: url(../images/BIM/news1.png);
+}
+
+.technology .contentHolder .specialty {
+    margin-right: 0 !important;
+}
+
+.procedure {
+    background-image: url(../images/BIM/bg2.png);
+    height: 928px;
+}
+
+.application{
+    height: 610px;
+    width: 100%;
+    background-color: #d0e3f5;
+}
+.application .contentHolder .ico div:nth-child(1){
+    background-image: url(../images/BIM/1.1.png);
+}
+.application .contentHolder .ico div:nth-child(1):hover{
+    background-image: url(../images/BIM/1.1.2.png);
+}
+.application .contentHolder .ico div:nth-child(2){
+    background-image: url(../images/BIM/1.2.png);
+}
+.application .contentHolder .ico div:nth-child(2):hover{
+    background-image: url(../images/BIM/1.1.2.png);
+}
+.application .contentHolder .ico div:nth-child(3){
+    background-image: url(../images/BIM/1.3.png);
+}
+.application .contentHolder .ico div:nth-child(3):hover{
+    background-image: url(../images/BIM/1.3.3.png);
+}
+.application .contentHolder .ico div:nth-child(4){
+    background-image: url(../images/BIM/1.4.png);
+}
+.application .contentHolder .ico div:nth-child(4):hover{
+    background-image: url(../images/BIM/1.4.4.png);
+}
+.application .contentHolder .ico{
+    padding: 0 75px;
+    margin-top: 50px;
+}
+.application .contentHolder .ico div{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 281px;
+    height: 508px;
+    float: left;
+}
+
+.contrast{
+    height: 740px;
+    background-image: url(../images/BIM/contrast.png);
+    margin-top: -23px;
+}
+.prospect{
+    height: 845px;
+    background-color: #d0e3f5;
+    margin-top: -4px;
+}
+.prospect .contentHolder div{
+    background-image: url(../images/BIM/rencai.png);
+    width: 1122px;
+    height: 738px;
+    margin: 50px auto;
+}
+.study{
+    height: 610px;
+    background-image: url(../images/BIM/study.png);
+    margin-top: -2px;
+}
+.enroll{
+    height: 428px;
+    background-image: url(../images/BIM/enroll.png);
+    margin-top: -4px;
+}
+.team{
+    height: 655px;
+}
+.team .contentHolder div{
+    background-image: url(../images/BIM/team.png);
+    height: 576px;
+    margin: 50px auto;
+}
+.policy{
+    height: 1010px;
+    background-image: url(../images/BIM/policy.png);
+}
+.combination{
+    position: relative;
+    height: 2977px;
+}
+.professional{
+    height: 810px;
+    background-image: url(../images/BIM/skill.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.certificate{
+    height: 762px;
+    background-image: url(../images/BIM/certificate.png);
+    position: absolute;
+    top: 661px;
+    left: 0;
+    z-index: 2;
+}
+.train{
+    background-image: url(../images/BIM/course.png);
+    height: 1714px;
+    position: absolute;
+    top:1277px;
+    left: 0;
+}
+.partners{
+    height: 1075px;
+    background-image: url(../images/BIM/cooperation.png);
+    position: absolute;
+    top:2991px;
+    left: 0;
+}
